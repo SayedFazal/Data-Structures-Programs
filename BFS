@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #define MAX_VERTICES 100
 
-struct Node {
+struct Node 
+{
     int data;
     struct Node* next;
 };
